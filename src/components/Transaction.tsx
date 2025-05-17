@@ -55,7 +55,7 @@ function Transaction() {
                     className="grid gap-1 md:gap-0 md:grid-cols-3 text-[13px] p-3 rounded-md bg-gray-50">
                     <div className="flex items-center gap-4">
                       <div
-                        className={`w-8 h-8 rounded-full flex items-center justify-center ${
+                        className={`w-8 h-8 rounded-md flex items-center justify-center ${
                           tx.type === "sent"
                             ? "bg-red-100 text-red-500"
                             : tx.type === "exchanged"
